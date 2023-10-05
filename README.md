@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Add a link leading to the Terms of use to the Reservation form
+- Add a "Remember me" feature to the Reservation form
+- Add some pop-up information for every item in the Menu - Baked goods section, i.e. description, ingredients..

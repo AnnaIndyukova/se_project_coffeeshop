@@ -1,0 +1,40 @@
+.menu__cards {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu__card {
+  display: flex;
+  width: 540px;
+  flex-direction: column;
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.card__list-item {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid;
+  flex-grow: 1;
+}
