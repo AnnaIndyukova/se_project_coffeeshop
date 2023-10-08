@@ -16,13 +16,14 @@
   line-height: 20px;
 }
 
-.form__label_checkbox {
+.form__label_type_checkbox {
   display: flex;
   gap: 12px;
   margin: 0 auto;
 }
 
 .form__input {
+  border: 1px solid #838383;
   border-radius: 4px;
   height: 60px;
   width: 100%;
@@ -38,6 +39,7 @@
 }
 
 .form__button {
+  border: none;
   height: 60px;
   width: 100%;
   max-width: 385px;

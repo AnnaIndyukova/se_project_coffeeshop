@@ -22,9 +22,11 @@
   margin: 183px 0 0;
   max-width: 729px;
   letter-spacing: -0.6px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.header__title_span-accent {
+.header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
@@ -59,18 +61,12 @@
   box-sizing: border-box;
 }
 
-.header__footer_hours {
+.header__hours {
   display: flex;
   flex-direction: column;
 }
 
-.header__footer_p {
-  margin: 0 auto 0 0;
-  font-weight: 500;
-  color: #838383;
-}
-
-.header__footer_address {
+.header__paragraph {
   margin: 0;
   font-weight: 500;
   color: #838383;
